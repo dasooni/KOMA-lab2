@@ -24,6 +24,73 @@
   color: white;
 }
 
+.CountryName {
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  padding-right : 5px;
+}
+
+.CountryName:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.area-bar
+{
+  background-color: #205da2;
+  height: 0.9em;
+  width: 100%;
+  border-right: 1.5em solid #024591;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.article {
+  -webkit-column-count : 2;
+  -moz-column-count : 2;
+  column-count : 2;
+
+
+  -webkit-column-rule-style : dashed;
+  -moz-column-rule-style : dashed;
+  column-rule-style : dashed;
+
+  -webkit-column-rule-width : 1px;
+  -moz-column-rule-width : 1px;
+  column-rule-width : 1px;
+
+  -webkit-column-fill : auto;
+  -moz-column-fill : auto;
+  column-fill : auto;
+
+  -webkit-column-width : auto;
+  -moz-column-width : auto;
+  column-width : auto;
+
+  -webkit-column-height : auto;
+  -moz-column-height : auto;
+
+  margin-top: -1px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+ul {
+  padding: 5px;
+}
+
+li {
+  break-before: avoid;
+}
+
+h2 {
+  
+  font-weight: bold;
+  color: #000;
+  margin-left : 25px;
+}
+
 .App-link {
   color: #61dafb;
 }
